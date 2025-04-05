@@ -16,15 +16,15 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.25.9.tgz#24b64e2c3ec7cd3b3c547729b8d16871f22cbdc7"
   integrity sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==
 
-"@capacitor/android@^7.0.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-7.2.0.tgz#f30e313315ab92c500bd57d9f0c4716a46b42f40"
-  integrity sha512-zdhEy3jZPG5Toe/pGzKtDgIiBGywjaoEuQWnGVjBYPlSAEUtAhpZ2At7V0SCb26yluAuzrAUV0Ue+LQeEtHwFQ==
+"@capacitor/android@^6.0.0":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-6.2.1.tgz#705347b62605b692093a96c81ce335875ea954e2"
+  integrity sha512-8gd4CIiQO5LAIlPIfd5mCuodBRxMMdZZEdj8qG8m+dQ1sQ2xyemVpzHmRK8qSCHorsBUCg3D62j2cp6bEBAkdw==
 
-"@capacitor/core@^7.0.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-7.2.0.tgz#fdd1c5d2fbfa257887ce6065f66151a51f0e6d1b"
-  integrity sha512-2zCnA6RJeZ9ec4470o8QMZEQTWpekw9FNoqm5TLc10jeCrhvHVI8MPgxdZVc3mOdFlyieYu4AS1fNxSqbS57Pw==
+"@capacitor/core@^6.0.0":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-6.2.1.tgz#7f1cbf438e55d3c32940eac26abd307c19f8bdee"
+  integrity sha512-urZwxa7hVE/BnA18oCFAdizXPse6fCKanQyEqpmz6cBJ2vObwMpyJDG5jBeoSsgocS9+Ax+9vb4ducWJn0y2qQ==
   dependencies:
     tslib "^2.1.0"
 
@@ -39,10 +39,10 @@
     minimist "^1.2.8"
     typescript "~4.2.4"
 
-"@capacitor/ios@^7.0.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-7.2.0.tgz#c3d9435582e5267b57085229e5678d1d53b15b5a"
-  integrity sha512-MQgRZcXZpbpjN83bjkGrzQd7s3XeHBZplmWf38/msF/siMGJKLrXNmNzmmPIWA5Xpi/aH6UoJFk1wXuU2U+zMg==
+"@capacitor/ios@^6.0.0":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-6.2.1.tgz#ac18a429072857c0fd88a74d30d6cc60288b7471"
+  integrity sha512-tbMlQdQjxe1wyaBvYVU1yTojKJjgluZQsJkALuJxv/6F8QTw5b6vd7X785O/O7cMpIAZfUWo/vtAHzFkRV+kXw==
 
 "@chevrotain/cst-dts-gen@11.0.3":
   version "11.0.3"
