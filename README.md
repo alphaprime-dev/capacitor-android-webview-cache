@@ -13,7 +13,7 @@ npx cap sync
 
 <docgen-index>
 
-- [`clearCache()`](#clearcache)
+* [`clearCache()`](#clearcache)
 
 </docgen-index>
 
@@ -26,6 +26,6 @@ npx cap sync
 clearCache() => Promise<void>
 ```
 
----
+--------------------
 
 </docgen-api>
