@@ -10,14 +10,16 @@ public class WebviewCachePlugin: CAPPlugin, CAPBridgedPlugin {
     public let identifier = "WebviewCachePlugin"
     public let jsName = "WebviewCache"
     public let pluginMethods: [CAPPluginMethod] = [
-        CAPPluginMethod(name: "echo", returnType: CAPPluginReturnPromise)
+        CAPPluginMethod(name: "clearCache", returnType: CAPPluginReturnPromise)
     ]
     private let implementation = WebviewCache()
 
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
-        call.resolve([
-            "value": implementation.echo(value)
-        ])
+    @objc func clearCache(_ call: CAPPluginCall) {
+        do {
+            try implementation.clearCache()
+            call.resolve()
+        } catch let error as NSError {
+            call.reject(error.localizedDescription)
+        }
     }
 }
